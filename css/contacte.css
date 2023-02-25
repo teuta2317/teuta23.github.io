@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url('../imgs/rose.png');
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    background-position-y: 25%;
+    background-size: 25%;
+
+}
+
+.container {
+    width: 80%;
+    margin: 60px 130px;
+    display: block;
+}
+
+.contact-box {
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 50%;
+    padding: 15px 40px 40px 60px;
+    border: 1px solid  rgb(212, 163, 115);
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 15px 20px 40px 60px;
+    background-color: rgb(212, 163, 115);
+    color: black;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'Livvic', sans-serif;
+}
+
+.contact-left h3 {
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 900;
+    color:  rgb(212, 163, 115);
+}
+
+.contact-right h3 {
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 900;
+    color:black;
+}
+
+tr td:first-child{
+padding-right: 40px;
+}
+
+tr td{
+    padding-top:20px ;
+}
+
+tr td> a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.input-row {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 70px
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 250%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+textarea {
+    width: 90%;
+    outline: none;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: rgb(212, 163, 115);
+    font-family: 'Livvic', sans-serif;
+}
+
+button {
+    background-color: rgb(212, 163, 115);
+    color:aliceblue;
+    width: 140px;
+    height: 39px;
+    display: block;
+    text-align: center;
+    line-height: 39px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgb(250, 237, 205);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+

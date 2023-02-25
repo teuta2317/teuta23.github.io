@@ -1,0 +1,153 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .header > div:first-of-type {
+    width: 120px;
+  }
+  .header > div:first-of-type > img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .header > div:last-of-type {
+    width: 120px;
+   
+  }
+  .header > div:last-of-type > a {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .header > div:last-of-type > a:hover {
+    color: #515151;
+    font-weight: 400;
+  }
+  .header > div:nth-child(2) {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .header > div:nth-child(2) > a {
+    margin-right: 60px;
+    color: #010101;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .header > div:nth-child(2) > a:last-of-type {
+    margin-right: 0;
+  }
+
+
+  body {
+    font-family: 'Livvic', sans-serif;
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.main > h1{
+   font-size: 64px;
+   margin: 0 0 15px;
+}
+
+.main > h2{
+    font-size: 32px;
+    margin: 0;
+    font-weight: normal;
+    color: gray;
+}
+
+.about {
+    padding: 0 10vw 90px;
+    margin: 0 auto;
+}
+
+.about>div {
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+
+.about>div:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.about>div:nth-child(2)>div {
+    margin-left: 0;
+    margin-right: 60px;
+}
+
+.about>div>img {
+    max-width: calc(50% - 30px);
+    width: 100%;
+    max-height: 360px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+    opacity: .8;
+}
+
+.about>div>div {
+    margin-left: 60px;
+    flex: 1;
+}
+
+.about>div>div>h3 {
+    font-size: 32px;
+    border-bottom: 2px solid;
+    width: fit-content;
+    margin: 0 0 20px;
+}
+
+.about>div>div>p {
+    font-size: 21px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .about>div {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .about>div>img {
+        max-height: 240px;
+    }
+
+    .about>div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .about>div>div {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .about>div:nth-child(2)>div {
+        margin-right: 0;
+    }
+
+    .about>div>div>h3 {
+        font-size: 24px;
+    }
+
+    .about>div>div>p {
+        font-size: 16px;
+    }
+}

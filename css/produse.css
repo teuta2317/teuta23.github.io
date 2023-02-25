@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+.ceaiuri{
+ background-color: antiquewhite;
+ width: 1200vh;
+ height: 30vh;
+ border: 1px solid black;
+}
+
+h1{
+    color: #090909;
+    font-family: 'Livvic', sans-serif;
+    padding: 80px;
+    position: relative;
+}
+
+.ceaiuri a{
+    text-decoration: none;
+    
+}
+

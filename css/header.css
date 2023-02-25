@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.header > div:first-of-type {
+  width: 120px;
+}
+.header > div:first-of-type > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.header > div:last-of-type {
+  width: 120px;
+ 
+}
+.header > div:last-of-type > a {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 35px;
+  display: block;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.header > div:last-of-type > a:hover {
+  color: #515151;
+  font-weight: 400;
+}
+.header > div:nth-child(2) {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.header > div:nth-child(2) > a {
+  margin-right: 60px;
+  color: #0c0c0c;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header > div:nth-child(2) > a:hover {
+ color: #6b6b6b;
+}
+.header > div:nth-child(2) > a:last-of-type {
+  margin-right: 0;
+}/*# sourceMappingURL=header.css.map */
+
+
